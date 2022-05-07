@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="222dp"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="137dp"
+            android:layout_height="137dp"></ImageView>
+
+        <TextView
+            android:layout_width="137dp"
+            android:layout_height="137dp"
+            android:text="text"
+            android:textAlignment="center"
+            android:background="@color/cardview_dark_background"></TextView>
+
+        <AnalogClock
+            android:layout_width="137dp"
+            android:layout_height="137dp"></AnalogClock>
+    </LinearLayout>
+
+    <Button
+        android:layout_width="137dp"
+        android:layout_height="137dp"></Button>
+
+    <TextView
+        android:layout_width="137dp"
+        android:layout_height="85dp"
+        android:text="Text 2"
+        android:textAlignment="center"></TextView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="222dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="137dp"
+            android:layout_height="137dp"
+            android:text="Text 3"></TextView>
+
+        <ImageView
+            android:layout_width="137dp"
+            android:layout_height="137dp"></ImageView>
+
+        <ListView
+            android:layout_width="137dp"
+            android:layout_height="137dp"></ListView>
+    </LinearLayout>
+
+    <Switch
+        android:layout_width="137dp"
+        android:layout_height="85dp"
+        ></Switch>
+
+    <ImageView
+        android:layout_width="137dp"
+        android:layout_height="137dp"></ImageView>
+
+</LinearLayout>
