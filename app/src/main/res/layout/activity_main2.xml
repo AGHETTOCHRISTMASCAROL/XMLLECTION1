@@ -5,9 +5,119 @@
     android:layout_height="match_parent"
     xmlns:android="http://schemas.android.com/apk/res/android">
 
-    <Button
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="BTN">
-    </Button>
+    <TableRow>
+        <Button
+            android:layout_width="137dp"
+            android:layout_height="137dp"
+            android:text="Btn"/>
+
+        <Switch
+            android:layout_width="137dp"
+            android:text="switch"
+            android:background="@color/purple_200"/>
+
+        <ImageView
+            android:layout_width="137dp"
+            android:layout_height="137dp"
+            android:src="@drawable/img_1"
+            android:layout_gravity="center"/>
+    </TableRow>
+
+    <TableRow>
+        <ImageView
+            android:layout_width="137dp"
+            android:layout_height="137dp"
+            android:src="@drawable/img_2"
+            android:layout_gravity="center"/>
+
+        <Button
+            android:layout_width="137dp"
+            android:layout_height="137dp"
+            android:text="@string/for_button"/>
+
+        <Switch
+            android:layout_width="137dp"
+            android:text="lapto"
+            android:background="@color/gray"/>
+
+    </TableRow>
+
+    <TableRow>
+
+        <Switch
+            android:layout_width="137dp"
+            android:background="@color/red"
+            android:layout_gravity="center"/>
+
+        <AnalogClock
+            android:layout_width="137dp"
+            android:layout_height="137dp"
+            android:background="@color/green"/>
+
+        <ImageView
+            android:layout_width="137dp"
+            android:layout_height="137dp"
+            android:src="@drawable/img_1"
+            android:layout_gravity="center"/>
+
+
+    </TableRow>
+
+    <TableRow>
+        <Button
+            android:layout_width="137dp"
+            android:layout_height="137dp"
+            android:text="Btn"/>
+
+        <Switch
+            android:layout_width="137dp"
+            android:text="switch"
+            android:background="@color/purple_200"/>
+
+        <ImageView
+            android:layout_width="137dp"
+            android:layout_height="137dp"
+            android:src="@drawable/img_2"
+            android:layout_gravity="center"/>
+    </TableRow>
+
+    <TableRow>
+        <ImageView
+            android:layout_width="137dp"
+            android:layout_height="137dp"
+            android:src="@drawable/img_2"
+            android:layout_gravity="center"/>
+
+        <Button
+            android:layout_width="137dp"
+            android:layout_height="137dp"
+            android:text="@string/for_button"/>
+
+        <Switch
+            android:layout_width="137dp"
+            android:text="lapto"
+            android:background="@color/gray"/>
+
+    </TableRow>
+
+    <TableRow>
+
+        <Switch
+            android:layout_width="137dp"
+            android:background="@color/red"
+            android:layout_gravity="center"/>
+
+        <AnalogClock
+            android:layout_width="137dp"
+            android:layout_height="137dp"
+            android:background="@color/gray"/>
+
+        <ImageView
+            android:layout_width="137dp"
+            android:layout_height="137dp"
+            android:src="@drawable/img_1"
+            android:layout_gravity="center"/>
+
+
+    </TableRow>
 </TableLayout>
